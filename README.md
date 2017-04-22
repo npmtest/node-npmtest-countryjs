@@ -1,4 +1,7 @@
-# test coverage for  [countryjs (v1.6.1)](https://github.com/therebelrobot/countryjs)  [![npm package](https://img.shields.io/npm/v/npmtest-countryjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-countryjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-countryjs.svg)](https://travis-ci.org/npmtest/node-npmtest-countryjs)
+# npmtest-countryjs
+
+#### basic test-coverage for  [countryjs (v1.6.1)](https://github.com/therebelrobot/countryjs)  [![npm package](https://img.shields.io/npm/v/npmtest-countryjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-countryjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-countryjs.svg)](https://travis-ci.org/npmtest/node-npmtest-countryjs)
+
 #### A utility library for returning country data, ISO info and states/provinces within them.
 
 [![NPM](https://nodei.co/npm/countryjs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/countryjs)
@@ -109,7 +112,8 @@
         "pretest": "./node_modules/standard/bin/cmd.js",
         "test": "./node_modules/istanbul/lib/cli.js cover _mocha --"
     },
-    "version": "1.6.1"
+    "version": "1.6.1",
+    "bin": {}
 }
 ```
 
